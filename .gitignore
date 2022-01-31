@@ -1,2 +1,7 @@
 server/node_modules
 client/node_modules
+client/build.zip
+client/build
+server/题库
+server/css
+server/js

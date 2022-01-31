@@ -2,16 +2,16 @@
   <!--主页面布局-->
   <!-- 后续加 -->
   <!-- <header></header> -->
-  <main></main>
+  <myMain></myMain>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import main from "@/views/main/main.vue";
+import myMain from "@/views/main/main.vue";
 export default defineComponent({
   name: "",
   components: {
-    main,
+    myMain,
   },
   setup() {
     return {};

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "bin": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,7 +12,19 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
+    "chalk": "^2.4.2",
     "express": "^4.17.2",
+    "figlet": "^1.5.2",
     "fs-extra": "^10.0.0"
+  },
+  "pkg": {
+    "scripts": [],
+    "assets": [
+      "node_modules/figlet/**/*.*",
+      "node_modules/figlet/fonts/Small Shadow.flf"
+    ],
+    "targets": [
+      "node12.18.1-win"
+    ]
   }
 }
